@@ -1,0 +1,26 @@
+
+ div{
+    color: blue;
+  }
+.text--bold,child-1{
+    color: red;
+    background-color: blueviolet;
+}
+.parent,.child-1{
+
+    color: white;
+    background-color: blue;
+}
+.child-2{
+    color: brown;
+    background-color: aquamarine;
+
+}
+/* a {
+    color: crimson;
+    border: 3px solid #000;
+} */
+
+a {
+    color:#000;
+}
