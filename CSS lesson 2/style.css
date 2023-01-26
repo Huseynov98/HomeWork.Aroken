@@ -1,0 +1,29 @@
+h2{
+color: red;
+}
+
+.block{
+    color: aqua;
+    background-color: chartreuse;
+}
+
+p{
+    color: blue;
+}
+p{
+    color: brown;
+}
+p{
+    color: blue;
+}
+p{
+    color: green;
+}
+.block2{
+    color: brown;
+}
+div{
+    color: yellow;
+    border: 3px solid #000;
+background-color: red;
+}
