@@ -1,0 +1,11 @@
+.content-1__image{
+    width: 200px;
+    
+}
+.content-1__block{
+    box-sizing: content-box;
+    padding: 25px 25px 0;
+    margin-bottom: 50px;
+    height: 50vh;
+    max-height: 100px;
+}
