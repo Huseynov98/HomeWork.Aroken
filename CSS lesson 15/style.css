@@ -1,0 +1,149 @@
+/* .wrapper{
+    height: 200px;
+    padding: 20px;
+}
+
+.flexbox{
+    border: 10px solid #0612ef;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.flexbox__items{
+    border: 3px solid #3c9513;
+    
+}
+.flexbox__items__content-1{
+height: 50%;
+text-align: center;
+font-size: 20px;
+background-color: red;
+border: 2px solid;
+padding: 10px;
+
+}
+.flexbox__items__content-2{
+    height: 100%;
+text-align: center;
+font-size: 30px;
+background-color: rgb(188, 14, 147);
+border: 2px solid;
+padding: 10px;
+}
+.flexbox__items__content-3{
+    height: 50%;
+text-align: center;
+font-size: 20px;
+background-color: rgb(0, 255, 0);
+border: 2px solid;
+padding: 10px;
+}
+.flexbox__items__content-4{
+    height: 100%;
+text-align: center;
+font-size: 30px;
+background-color: rgb(236, 167, 17);
+border: 2px solid;
+padding: 10px;
+}
+.flexbox__items__content-5{
+    height: 50%;
+text-align: center;
+font-size: 20px;
+background-color: rgb(157, 0, 255);
+border: 2px solid;
+padding: 10px;
+}
+
+/*------------------------------------------------- */
+/* 
+.flexbox{
+    display: flex;
+} */
+
+/*----------------------------------------------------------*/
+body{
+    background-color: #444;
+}
+    
+
+
+.wrapper{
+    padding: 50px;
+    min-height: 100%;
+}
+.containter {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.grid{
+    margin-bottom: 200px;
+    padding-bottom: 200px;
+    border: 5px solid #040101;
+    text-align: center;
+}
+
+.item {
+    border: 5px dashed #444;
+    font-size: 40px;
+    padding: 0.8em;
+    text-align: center;
+  }
+
+  /*-------------------------------------------*/
+
+.grid__body{
+    display:grid;
+    grid-template-columns: 1fr 1fr minmax(100px,200px) 1fr 1fr ;
+    grid-template-rows: 1fr/1fr minmax(100px,200px) 1fr 1fr;
+    font-size: 20px;
+    
+      /* display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr minmax(100px, 200px) 1fr 1fr;
+      grid-template: 1fr 1fr/1fr 1fr minmax(100px, 200px) 1fr 1fr; */
+}
+
+/* .grid-1{
+height: 100px;
+width: 100px;
+}
+
+
+.grid-2{
+    height: 100px;
+    width: 100px; 
+}
+.grid-3{
+    height: 100px;
+width: 100px;
+}
+.grid-4{
+    
+}
+.grid-5{
+    height: 100px;
+    width: 100px; 
+}
+.grid-6{
+    height: 100px;
+    width: 100px; 
+}
+.grid-7{
+    height: 100px;
+    width: 100px;
+}
+.grid-8{
+    height: 100px;
+    width: 100px;  
+}
+.grid-9{
+    height: 100px;
+    width: 100px; 
+}
+.grid-10{
+    height: 100px;
+    width: 100px; 
+} */
